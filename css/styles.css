@@ -6,6 +6,7 @@
     --letters-color: #F5F4FA; 
     --logo-color: #000000;
     --base-color: #2F303A;
+    --contacte-color: rgba(255, 255, 255, 0.6);
 
 }
 body{
@@ -224,7 +225,7 @@ letter-spacing: 0.02em;
 }
 
 .footer-contact{
-    color: rgba(255, 255, 255, 0.6);;
+    color: var(--contacte-color);
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.03em;
